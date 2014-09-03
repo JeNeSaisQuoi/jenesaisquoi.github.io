@@ -37,9 +37,21 @@ header ul li:hover {
   background-size: cover;
   background-attachment: fixed;
 }
+#hero #sizer {
+    float: right;
+}
+#hero #sizer button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #50f26b;
+    background-color: #50f26b;
+    color: white;
+
+}
 main {
   background-color: #dedede;
 }
+
 section {
   width: 80%;
   margin: 0 auto;
