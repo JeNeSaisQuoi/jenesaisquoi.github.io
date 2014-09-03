@@ -1,0 +1,15 @@
+img {
+    width: 31%;
+}
+.jumbotron {
+    background-color: rgb(225, 225, 242);
+}
+h1 {
+    font-family: serif;
+}
+p {
+    font-family: fantasy, sans-serif;
+}
+.buttons {
+    margin: 2% 0% 2% 0%;
+}

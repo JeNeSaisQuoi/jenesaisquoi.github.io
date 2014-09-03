@@ -1,0 +1,104 @@
+*, *:before,*:after {
+    -webkit-box-sizing: : border-box;
+    -moz-box-sizing: : border-box;
+    box-sizing: : border-box;
+    /*BOX SIZING FIX -- doesnt work on all browsers i.e. have to use the webkit Moz snippet above*/
+}
+
+/*CLEAR FIX*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body {
+        background-color: blue;
+        margin: 0;
+    }
+header {
+        width: 100%;
+        font-family: Arial;
+        font-size: 2em;
+        padding: 10px;
+        background-color: #ed9898;
+    }
+article {
+        margin: 0;
+        width: 80%;
+        float: right;
+        display: block;
+        padding: 0px;
+        background-color: #b5ed98;
+    }
+side {
+        margin: 0;
+        width: 20%;
+        display: block;
+        float: left;
+        background-color: #74b8d1;
+        
+    }
+div {
+        margin: 0;
+        width: 50%;
+        height: 150px;
+        float: left;
+        text-align: center;
+        background-color: #8ae528;
+        font-size: 2em;
+        
+    }
+footer {
+        margin: 0;
+        float: right;
+    }
+
+@media (min-width: 1200px){
+    body {
+        background-color: red;
+    }
+    header {
+        width: 100%;
+        font-family: Arial;
+        font-size: 2em;
+        padding: 10px;
+    }
+    article {
+        width: 80%;
+        float: left;
+        display: block;
+        padding: 0px;
+    }
+    side {
+        width: 20%;
+        display: block;
+        float: left; 
+    }
+    div {
+        margin: 0;
+        width: 25%;
+        height: 150px;
+        float: left;
+    }
+    footer {
+        
+    }
+}
+@media (max-width: 768px){
+    body {
+        background-color: green;
+    }
+    article, side, div {
+        display: block;
+        float: none;
+        width: 100%;
+}
+
+
+
+
+
+
+
+
+

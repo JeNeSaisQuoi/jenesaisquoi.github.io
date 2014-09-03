@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+#player {
+    background-color: #ebebeb;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+#track_display {
+    background-color: #61cfde;
+    flex: 4;
+}
+#track_controls {
+    background-color: #519893;
+    flex: 1;
+}
+#sidebar {
+    background-color: #4f4f7e;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.sidebar_div {
+    padding: 5px;
+    min-height: 100px;
+    width: 100%;
+}
+.sidebar_div:hover {
+    background-color: #7790f8;
+}
+h1, h2, h3 {
+    left: 100px;
+}
+h1 {
+    font-size: 0.9em;
+    position: relative;
+    top: -100px;
+}
+h2 {
+    font-size: 0.8em;
+    font-style: italic;
+    position: relative;
+    top: -100px;
+}
+h3 {
+    font-size: 0.8em;
+    position: relative;
+    top: -100px;
+}
+div img {
+    width: 90px;
+    height: 90px;
+}
