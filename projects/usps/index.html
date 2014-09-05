@@ -21,12 +21,7 @@
 
   
   <main>
-    <div id="hero">
-        <div id="sizer">
-            <button class="plus">+</button>
-            <button class="minus">-</button>
-        </div>
-    </div>
+    <div id="hero"></div>
 	<section class="clear">
 	  <img src="img/avatar.png" />
 	  <article>
@@ -41,33 +36,6 @@
   <footer>
   <p>Copyright &copy; 2014 Geekwise Academy. All rights reserved.</p>
   </footer>
-  
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            
-            var size = 100;
-            
-            $("#sizer button").on({
-                click: function(){
-                    if($(this).hasClass("plus")){
-                        console.log("clicked the plus");
-                        size = size + 15;
-                        $("body").css("font-size", size + "%");
-                    } else {
-                        console.log("clicked the minus");
-                       size = size - 15;
-                        $("body").css("font-size", size + "%");
-                    }
-                }
-            });
-        });
-    </script>
 
 </body>
 </html>
-
-
-
-
-
